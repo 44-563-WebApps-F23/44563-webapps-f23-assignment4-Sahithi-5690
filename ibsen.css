@@ -28,3 +28,31 @@
     font-size: medium;
     color: cadetblue;
 }
+.name{
+    font-size: medium;
+}
+.name:hover{
+    color: firebrick;
+    text-shadow: 2px 2px 4px black;
+    border: solid 1px;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+tbody th:nth-child(n){
+    background-color: azure;
+    text-align: center;
+    padding: 30px;
+}
+tbody tr:nth-child(n+1){
+    background-color: cyan;
+    text-align: center;
+    padding: 20px;
+}
+tbody td:nth-child(n){
+    padding: auto;
+}
+tbody tr:nth-last-child(2n+2){
+    background-color: azure;
+}
