@@ -56,3 +56,21 @@ tbody td:nth-child(n){
 tbody tr:nth-last-child(2n+2){
     background-color: azure;
 }
+nav
+{
+    background-color: azure;
+    width: auto;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+nav ul li a:hover{
+ color: crimson;
+}
